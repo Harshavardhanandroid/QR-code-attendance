@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="fill_parent"
+    android:background="@drawable/hd"
+    tools:context="com.appdeveloper.student.MainActivity"
+    tools:layout_editor_absoluteY="89dp">
+
+    <Button
+        android:id="@+id/student"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="165dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="click"
+        android:text="STUDENT"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="311dp"
+        android:background="@android:color/transparent"
+        android:text="STAFF"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_x="96dp"
+        android:layout_y="47dp"
+        android:fontFamily="cursive"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/zxing_status_text"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_x="68dp"
+        android:layout_y="414dp"
+        android:onClick="click1"
+        android:text="create"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_x="195dp"
+        android:layout_y="415dp"
+        android:onClick="click2"
+        android:text="view"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+
+</AbsoluteLayout>
